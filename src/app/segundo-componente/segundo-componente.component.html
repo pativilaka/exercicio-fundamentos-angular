@@ -1,0 +1,9 @@
+<h2>Aprofundando conhecimento em template e interpolação de texto</h2>
+
+<img [src]="urlImagem" width="500">
+
+<p>Nome: {{ nome | uppercase}}</p>
+<p>Nascimento: {{dataNascimento | date: "dd/MM/yy"}}</p>
+
+<button (click)="mostrarDataNascimento()" type="button">Mostar Data de Nascimento</button>
+
