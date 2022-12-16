@@ -10,6 +10,11 @@ import { PipeCustomizadoComponent } from './pipe-customizado/pipe-customizado.co
 import { TwoWayDataBindingComponent } from './two-way-data-binding/two-way-data-binding.component';
 import { FormsModule } from '@angular/forms';
 import { RenderizandoListasComponent } from './renderizando-listas/renderizando-listas.component';
+import { ComponentePersonalizadoComponent } from './componente-personalizado/componente-personalizado.component';
+import { ComponentePaiComponent } from './componente-pai/componente-pai.component';
+import { ComponenteFilhoComponent } from './componente-filho/componente-filho.component';
+import { ComponentePrincipalComponent } from './componente-principal/componente-principal.component';
+import { ComponenteSecundarioComponent } from './componente-secundario/componente-secundario.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +24,12 @@ import { RenderizandoListasComponent } from './renderizando-listas/renderizando-
     MultiplicaPorPipe,
     PipeCustomizadoComponent,
     TwoWayDataBindingComponent,
-    RenderizandoListasComponent
+    RenderizandoListasComponent,
+    ComponentePersonalizadoComponent,
+    ComponentePaiComponent,
+    ComponenteFilhoComponent,
+    ComponentePrincipalComponent,
+    ComponenteSecundarioComponent
   ],
   imports: [
     BrowserModule,
