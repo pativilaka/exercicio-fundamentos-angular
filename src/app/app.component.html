@@ -1,8 +1,34 @@
-<app-primeiro-componente></app-primeiro-componente>
-<app-segundo-componente></app-segundo-componente>
-<app-pipe-customizado></app-pipe-customizado>
-<app-two-way-data-binding></app-two-way-data-binding>
-<app-renderizando-listas></app-renderizando-listas>
-<app-componente-personalizado nome="Patrícia" sobrenome="Nunes"></app-componente-personalizado>
-<app-componente-personalizado nome="Alexandre" sobrenome="Fernandes"></app-componente-personalizado>
-<app-componente-pai></app-componente-pai>
+<app-card>
+    <app-primeiro-componente></app-primeiro-componente>
+    <app-segundo-componente></app-segundo-componente>
+</app-card>
+
+<app-card titulo="Pipe customizado" cor="#3D4D63">
+    <app-pipe-customizado></app-pipe-customizado>
+</app-card>
+
+<app-card titulo="Two way data binding" cor="#B2E7E8">
+   <app-two-way-data-binding></app-two-way-data-binding>
+</app-card>
+
+<app-card titulo="Renderizando listas" cor="#BFB9AA"> 
+   <app-renderizando-listas></app-renderizando-listas>
+</app-card>
+
+<app-card titulo="Componentes personalizados Input" cor="#F2D096">
+    <app-componente-personalizado nome="Patrícia" sobrenome="Nunes"></app-componente-personalizado>
+    <app-componente-personalizado nome="Alexandre" sobrenome="Fernandes"></app-componente-personalizado>
+</app-card>
+
+<app-card titulo="Compatilhando dados entre componentes" cor="#ED8975">
+    <app-componente-pai></app-componente-pai>
+</app-card>
+
+<app-card titulo="Serviços - Injeção de dependência" cor="#FFE3DC">
+    <app-exemplo-servicos1></app-exemplo-servicos1>
+    <app-exemplo-servicos2></app-exemplo-servicos2>
+</app-card>
+
+<app-card titulo="Ciclo de Vida" cor="#3A2D32">
+    <app-ciclo-de-vida-pai> </app-ciclo-de-vida-pai>
+</app-card>
